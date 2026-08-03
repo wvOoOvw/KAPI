@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "formidable": "^3.5.4"
+  },
+  "scripts": {
+    "start": "node ./src/app",
+    "pull": "git pull origin master",
+    "push": "git add . && git commit -m 'x' && git push origin master",
+    "push-f": "git reset 257e9ef9549ecd34e9e16f365b968e2d7c7b0dc0 && git add . && git commit -m 'x' && git push origin master -f"
+  }
+}

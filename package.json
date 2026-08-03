@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "pull": "git pull origin master",
-    "push": "git add . && git commit -m 'x' && git push origin master"
+    "push": "git add . && git commit -m 'x' && git push origin master",
+    "push-f": "git reset 1093edd0361c77c17a0cd249968df360fbbc32f5 && git add . && git commit -m 'x' && git push origin master -f"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "pull": "git pull origin master",
+    "push": "git add . && git commit -m 'x' && git push origin master",
+    "push-f": "git reset 08bc084c0f7d2c7de0e1bcda9173cfdf6a4e521c && git add . && git push origin master -f"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "node-fetch": "^2.6.9",
+    "open": "^10.2.0",
+    "puppeteer-core": "^24.16.2"
+  }
+}

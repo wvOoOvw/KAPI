@@ -1,0 +1,8 @@
+**/node_modules/
+**/package-lock.json
+**/.vscode
+**/.git
+**/.DS_Store
+**/npm-debug.log
+**/@cache
+**/build

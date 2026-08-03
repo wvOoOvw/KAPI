@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  font-size: 14px;
+}
+
+img {
+  display: block;
+}
+
+body * {
+  box-sizing: border-box;
+  font-weight: bold !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  gap: 16px;
+}
+
+.masonry-grid_column {
+  background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#webpack-dev-server-client-overlay {
+  display: none !important;
+}
